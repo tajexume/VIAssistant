@@ -1,0 +1,115 @@
+2022-08-28 18:41:12,432 file_cache is only supported with oauth2client<4.0.0
+2022-08-28 18:41:13,133 text: Hi, what can I do?
+2022-08-28 18:41:13,134 tld: com
+2022-08-28 18:41:13,134 lang: en
+2022-08-28 18:41:13,134 slow: False
+2022-08-28 18:41:13,134 lang_check: True
+2022-08-28 18:41:13,135 pre_processor_funcs: [<function tone_marks at 0x000001BFBC94B760>, <function end_of_line at 0x000001BFBC9701F0>, <function abbreviations at 0x000001BFBC970160>, <function word_sub at 0x000001BFBC970310>]
+2022-08-28 18:41:13,135 tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|…|\u3001|¡|\\(|\u060c|\\)|\\]|\\\n|¿|\uff1a|\u2025|\u3002|\\[|—|;|\uff0c', re.IGNORECASE) from: [<function tone_marks at 0x000001BFBC9704C0>, <function period_comma at 0x000001BFBC970550>, <function colon at 0x000001BFBC9705E0>, <function other_punctuation at 0x000001BFBC970670>]>
+2022-08-28 18:41:13,135 langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ms': 'Malay', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2022-08-28 18:41:13,136 pre-processing: <function tone_marks at 0x000001BFBC94B760>
+2022-08-28 18:41:13,137 pre-processing: <function end_of_line at 0x000001BFBC9701F0>
+2022-08-28 18:41:13,137 pre-processing: <function abbreviations at 0x000001BFBC970160>
+2022-08-28 18:41:13,138 pre-processing: <function word_sub at 0x000001BFBC970310>
+2022-08-28 18:41:13,138 text_parts: ['Hi, what can I do?']
+2022-08-28 18:41:13,139 text_parts: 1
+2022-08-28 18:41:13,139 data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hi%2C%20what%20can%20I%20do%3F%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2022-08-28 18:41:13,141 Starting new HTTPS connection (1): translate.google.com:443
+2022-08-28 18:41:13,473 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2022-08-28 18:41:13,492 headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '160'}
+2022-08-28 18:41:13,492 url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2022-08-28 18:41:13,492 status-0: 200
+2022-08-28 18:41:13,492 part-0 written to <_io.BufferedWriter name='audio18342714.mp3'>
+2022-08-28 18:41:13,492 part-0 created
+2022-08-28 18:41:13,492 Saved to audio18342714.mp3
+2022-08-28 18:41:13,493 log audio created
+2022-08-28 18:41:16,042 speak(): Hi, what can I do?
+2022-08-28 18:41:16,042 Helen: Hi, what can I do?
+2022-08-28 18:41:16,043 assistant powered on
+2022-08-28 18:41:29,410 checking email
+2022-08-28 18:41:29,411 Didn't understand: email
+2022-08-28 18:41:29,411 text: Sorry could not perform that function, say help to see what you can say
+2022-08-28 18:41:29,411 tld: com
+2022-08-28 18:41:29,411 lang: en
+2022-08-28 18:41:29,411 slow: False
+2022-08-28 18:41:29,411 lang_check: True
+2022-08-28 18:41:29,411 pre_processor_funcs: [<function tone_marks at 0x000001BFBC94B760>, <function end_of_line at 0x000001BFBC9701F0>, <function abbreviations at 0x000001BFBC970160>, <function word_sub at 0x000001BFBC970310>]
+2022-08-28 18:41:29,411 tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|…|\u3001|¡|\\(|\u060c|\\)|\\]|\\\n|¿|\uff1a|\u2025|\u3002|\\[|—|;|\uff0c', re.IGNORECASE) from: [<function tone_marks at 0x000001BFBC9704C0>, <function period_comma at 0x000001BFBC970550>, <function colon at 0x000001BFBC9705E0>, <function other_punctuation at 0x000001BFBC970670>]>
+2022-08-28 18:41:29,412 langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ms': 'Malay', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2022-08-28 18:41:29,413 pre-processing: <function tone_marks at 0x000001BFBC94B760>
+2022-08-28 18:41:29,413 pre-processing: <function end_of_line at 0x000001BFBC9701F0>
+2022-08-28 18:41:29,413 pre-processing: <function abbreviations at 0x000001BFBC970160>
+2022-08-28 18:41:29,413 pre-processing: <function word_sub at 0x000001BFBC970310>
+2022-08-28 18:41:29,413 text_parts: ['Sorry could not perform that function, say help to see what you can say']
+2022-08-28 18:41:29,414 text_parts: 1
+2022-08-28 18:41:29,414 data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Sorry%20could%20not%20perform%20that%20function%2C%20say%20help%20to%20see%20what%20you%20can%20say%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2022-08-28 18:41:29,415 Starting new HTTPS connection (1): translate.google.com:443
+2022-08-28 18:41:29,649 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2022-08-28 18:41:29,659 headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '229'}
+2022-08-28 18:41:29,659 url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2022-08-28 18:41:29,659 status-0: 200
+2022-08-28 18:41:29,660 part-0 written to <_io.BufferedWriter name='audio7970001.mp3'>
+2022-08-28 18:41:29,660 part-0 created
+2022-08-28 18:41:29,660 Saved to audio7970001.mp3
+2022-08-28 18:41:29,660 log audio created
+2022-08-28 18:41:34,848 speak(): Sorry could not perform that function, say help to see what you can say
+2022-08-28 18:41:34,848 Helen: Sorry could not perform that function, say help to see what you can say
+2022-08-28 18:41:34,849 could not follow that command
+2022-08-28 18:41:34,849 finished command
+2022-08-28 18:41:44,970 text: Hi, what can I do?
+2022-08-28 18:41:44,971 tld: com
+2022-08-28 18:41:44,971 lang: en
+2022-08-28 18:41:44,972 slow: False
+2022-08-28 18:41:44,972 lang_check: True
+2022-08-28 18:41:44,972 pre_processor_funcs: [<function tone_marks at 0x000001BFBC94B760>, <function end_of_line at 0x000001BFBC9701F0>, <function abbreviations at 0x000001BFBC970160>, <function word_sub at 0x000001BFBC970310>]
+2022-08-28 18:41:44,972 tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|…|\u3001|¡|\\(|\u060c|\\)|\\]|\\\n|¿|\uff1a|\u2025|\u3002|\\[|—|;|\uff0c', re.IGNORECASE) from: [<function tone_marks at 0x000001BFBC9704C0>, <function period_comma at 0x000001BFBC970550>, <function colon at 0x000001BFBC9705E0>, <function other_punctuation at 0x000001BFBC970670>]>
+2022-08-28 18:41:44,972 langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ms': 'Malay', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2022-08-28 18:41:44,974 pre-processing: <function tone_marks at 0x000001BFBC94B760>
+2022-08-28 18:41:44,974 pre-processing: <function end_of_line at 0x000001BFBC9701F0>
+2022-08-28 18:41:44,974 pre-processing: <function abbreviations at 0x000001BFBC970160>
+2022-08-28 18:41:44,974 pre-processing: <function word_sub at 0x000001BFBC970310>
+2022-08-28 18:41:44,974 text_parts: ['Hi, what can I do?']
+2022-08-28 18:41:44,974 text_parts: 1
+2022-08-28 18:41:44,974 data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hi%2C%20what%20can%20I%20do%3F%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2022-08-28 18:41:44,975 Starting new HTTPS connection (1): translate.google.com:443
+2022-08-28 18:41:45,430 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2022-08-28 18:41:45,435 headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '160'}
+2022-08-28 18:41:45,435 url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2022-08-28 18:41:45,436 status-0: 200
+2022-08-28 18:41:45,436 part-0 written to <_io.BufferedWriter name='audio1126721.mp3'>
+2022-08-28 18:41:45,436 part-0 created
+2022-08-28 18:41:45,436 Saved to audio1126721.mp3
+2022-08-28 18:41:45,437 log audio created
+2022-08-28 18:41:47,488 speak(): Hi, what can I do?
+2022-08-28 18:41:47,488 Helen: Hi, what can I do?
+2022-08-28 18:41:47,489 assistant powered on
+2022-08-28 18:41:49,882 checking email
+2022-08-28 18:41:49,882 Didn't understand: email
+2022-08-28 18:41:49,882 text: Sorry could not perform that function, say help to see what you can say
+2022-08-28 18:41:49,882 tld: com
+2022-08-28 18:41:49,882 lang: en
+2022-08-28 18:41:49,882 slow: False
+2022-08-28 18:41:49,882 lang_check: True
+2022-08-28 18:41:49,882 pre_processor_funcs: [<function tone_marks at 0x000001BFBC94B760>, <function end_of_line at 0x000001BFBC9701F0>, <function abbreviations at 0x000001BFBC970160>, <function word_sub at 0x000001BFBC970310>]
+2022-08-28 18:41:49,882 tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=\uff1f).|(?<=\uff01).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|…|\u3001|¡|\\(|\u060c|\\)|\\]|\\\n|¿|\uff1a|\u2025|\u3002|\\[|—|;|\uff0c', re.IGNORECASE) from: [<function tone_marks at 0x000001BFBC9704C0>, <function period_comma at 0x000001BFBC970550>, <function colon at 0x000001BFBC9705E0>, <function other_punctuation at 0x000001BFBC970670>]>
+2022-08-28 18:41:49,882 langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ms': 'Malay', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+2022-08-28 18:41:49,883 pre-processing: <function tone_marks at 0x000001BFBC94B760>
+2022-08-28 18:41:49,884 pre-processing: <function end_of_line at 0x000001BFBC9701F0>
+2022-08-28 18:41:49,884 pre-processing: <function abbreviations at 0x000001BFBC970160>
+2022-08-28 18:41:49,884 pre-processing: <function word_sub at 0x000001BFBC970310>
+2022-08-28 18:41:49,884 text_parts: ['Sorry could not perform that function, say help to see what you can say']
+2022-08-28 18:41:49,884 text_parts: 1
+2022-08-28 18:41:49,884 data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Sorry%20could%20not%20perform%20that%20function%2C%20say%20help%20to%20see%20what%20you%20can%20say%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+2022-08-28 18:41:49,884 Starting new HTTPS connection (1): translate.google.com:443
+2022-08-28 18:41:50,092 https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+2022-08-28 18:41:50,097 headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '229'}
+2022-08-28 18:41:50,097 url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+2022-08-28 18:41:50,097 status-0: 200
+2022-08-28 18:41:50,099 part-0 written to <_io.BufferedWriter name='audio11299256.mp3'>
+2022-08-28 18:41:50,099 part-0 created
+2022-08-28 18:41:50,099 Saved to audio11299256.mp3
+2022-08-28 18:41:50,100 log audio created
+2022-08-28 18:41:55,329 speak(): Sorry could not perform that function, say help to see what you can say
+2022-08-28 18:41:55,329 Helen: Sorry could not perform that function, say help to see what you can say
+2022-08-28 18:41:55,330 could not follow that command
+2022-08-28 18:41:55,330 finished command
