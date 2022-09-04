@@ -1,4 +1,4 @@
-# VIAssistant
+# VIAssistant                 [![Space Metric](https://tajexume.testspace.com/spaces/188422/badge?token=025f874240eea5b41688b4b486b63e69d960fbdc)](https://tajexume.testspace.com/spaces/188422?utm_campaign=badge&utm_medium=referral&utm_source=test "Test Cases")
 VI Assistant that can do some utilities
 ## Can Do:
 - Start apps on client
