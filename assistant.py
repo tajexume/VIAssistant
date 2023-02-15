@@ -37,7 +37,7 @@ class Assistant:
 
         #Gmail Authenticator info
         SCOPES = ['https://mail.google.com/']
-        email = 'tajexume@gmail.com'
+        email = 'EMAIL HERE'
 
         #Functoins the assistant can perform
         functions = ['HELP', 'SEARCH', 'LOOK UP', 'START', 'CHECK EMAIL', 'WHAT IS TODAY', 'WHAT TIME IS IT', 'EXIT', 'QUIT']
